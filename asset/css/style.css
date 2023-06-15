@@ -1,0 +1,177 @@
+/**
+ * @Author: Your name
+ * @Date:   2023-06-05 17:10:01
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2023-06-15 16:41:56
+ */
+body {
+	font-family: source-han-sans-japanese, Helvetica Neue, Arial, Hiragino Kaku Gothic ProN, Hiragino Sans, Meiryo, sans-serif;
+	background: #000;
+}
+
+*, ::before, ::after {
+	box-sizing: border-box;
+}
+
+a {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	vertical-align: middle;
+}
+
+
+.container {
+	margin: 0 auto;
+	max-width: 992px;
+}
+
+.inner {
+	padding: 16px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+}
+
+.col-4 {
+	width: 33.333%;
+	padding: 0 16px;
+}
+
+.col-6 {
+	width: 50%;
+	padding: 0 16px;
+}
+
+.col-8 {
+	width: 66.666%;
+	padding: 0 16px;
+}
+
+
+.mb-120 {
+	margin-bottom: 120px;
+}
+
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+.mb-60 {
+	margin-bottom: 60px;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-16 {
+	margin-bottom: 16px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: bold;
+	line-height: 2;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.h1 {
+	font-size: 40px;
+}
+
+.h2 {
+	font-size: 32px;
+}
+
+.h3 {
+	font-size: 24px;
+}
+
+.h4 {
+	font-size: 20px;
+}
+
+.h5 {
+	font-size: 18px;
+}
+
+.h6 {
+	font-size: 18px;
+}
+
+
+.font-l, .font-s {
+	line-height: 2;
+	text-align: justify;
+	color: #fff;
+	margin-bottom: 24px;
+}
+
+.font-l {
+	font-size: 18px;
+}
+
+.font-s {
+	font-size: 14px;
+}
+
+@media(max-width:768px) {
+	.col-8 {
+		width: 100%;
+	}
+
+	.col-4 {
+		width: 50%;
+	}
+}
+
+@media(max-width:425px) {
+	.col-4, .col-6 {
+		width: 1000%;
+	}
+}
+
+.cta a {
+	color: #fff;
+	font-weight: bolder;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid #fff;
+	width: 100%;
+	padding: 24px 0;
+	display: block;
+	border-radius: 32px;
+	font-size: 22px;
+}
+
+.cta a:hover {
+	background: #fff;
+	color: #000;
+
+}
+
+.en a, .ko a, .jp a {
+	font-size: 22px;
+	font-weight: bold;
+	padding: 0 8px;
+	color: rgb(116, 190, 255);
+}
+
+.en a:hover, .ko a:hover, .jp a:hover {
+	color: rgb(30, 75, 255);
+	font-size: 22.5px;
+
+}
