@@ -83,7 +83,7 @@ img {
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight: bold;
-	line-height: 2;
+	line-height: 1.8;
 	color: #fff;
 	margin-bottom: 40px;
 }
@@ -114,11 +114,13 @@ img {
 
 
 .font-l, .font-s {
-	line-height: 2;
-	text-align: justify;
+	line-height: 1.6;
+/* 	text-align: justify; */
 	color: #fff;
 	margin-bottom: 24px;
 }
+
+
 
 .font-l {
 	font-size: 18px;
